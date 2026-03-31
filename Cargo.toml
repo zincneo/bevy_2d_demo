@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 bevy = { version = "0.18.1", default-features = false, features = ["2d_bevy_render", "dynamic_linking", "wayland"] }
+bevy_light_2d = "0.9.0"
 bevy_rapier2d = "0.33.0"
 
 # Bevy debug builds are much more usable with a little optimization on local code.
@@ -68,3 +69,7 @@ path = "examples/sprite/demo_04_sprite_slice.rs"
 [[example]]
 name = "sprite_sheet"
 path = "examples/sprite/demo_05_sprite_sheet.rs"
+
+[[example]]
+name = "point_light"
+path = "examples/light/demo_01_point_light.rs"
