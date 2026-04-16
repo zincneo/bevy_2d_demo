@@ -71,5 +71,9 @@ name = "sprite_sheet"
 path = "examples/sprite/demo_05_sprite_sheet.rs"
 
 [[example]]
+name = "sprite_animation"
+path = "examples/sprite/demo_06_sprite_animation.rs"
+
+[[example]]
 name = "point_light"
 path = "examples/light/demo_01_point_light.rs"
